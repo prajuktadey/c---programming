@@ -15,3 +15,21 @@ Identifiers may not conflict with reserved words. In current c++ standard reserv
 
 a. Identifiers are case sensitive.
 b. Current standards allow letters that are not a part of the ISO latin alphabet.
+
+4. Pointers
+
+Pointers are powerful and dangerous data type.
+
+A variable is a typed and named location in memory.
+The name of the variable is used as an index to map to a memory address and a particular associated data type.
+
+C++ also provides a pointer type that is a pointer to a value.
+
+int *ip = This is a pointer definition.
+So memory is allocated for a value of type pointer.
+The compiler associates this pointer with the int type. So, we call this an integer pointer. It is a pointer to an integer value.
+
+int * ip;
+ip= &x;  //Here, the address of the integer variable named x is placed in the integer pointer variable named ip.
+
+The ampersand operator is formally called the reference operator but in this context it's more commonly called the address operator. It returns the address of an object suitable for assigning to a pointer.
