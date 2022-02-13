@@ -6,6 +6,7 @@ int main()
 
     int x= array[2];
     printf("x is %d\n", x);
+    array[2]= 47;
 
     for(int i: array)//for loop
     {
