@@ -34,6 +34,11 @@ ip= &x;  //Here, the address of the integer variable named x is placed in the in
 
 The ampersand operator is formally called the reference operator but in this context it's more commonly called the address operator. It returns the address of an object suitable for assigning to a pointer.
 
-A primitive array is defined in a structure or a class. The array is a primitive type. Primitive are essential tools for building derived types.
+5. A primitive array is defined in a structure or a class. The array is a primitive type. Primitive are essential tools for building derived types.
 
 There is also an STL class called array and this can lead to some confusion.
+
+6. A primitive string is a special kind of an array. Not to be confused with the string class in the standard template library, the primitive string is often called a C string.
+
+A primitive string is just a special case of an array of characters.
+
