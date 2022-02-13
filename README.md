@@ -33,3 +33,7 @@ int * ip;
 ip= &x;  //Here, the address of the integer variable named x is placed in the integer pointer variable named ip.
 
 The ampersand operator is formally called the reference operator but in this context it's more commonly called the address operator. It returns the address of an object suitable for assigning to a pointer.
+
+A primitive array is defined in a structure or a class. The array is a primitive type. Primitive are essential tools for building derived types.
+
+There is also an STL class called array and this can lead to some confusion.
