@@ -44,3 +44,7 @@ A primitive string is just a special case of an array of characters.
 
 7. A structure is an aggregated variable in c++. 
 It is a way of collecting a number of disparate variables in a single container.
+
+8. C++ makes no distinction between a function and a procedure.
+
+9. When we're building an object based on a class, we're building an instance of that class and each of these is a separate instance, each with its own memory space and each most importantly with its own copy of the data member.
