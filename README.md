@@ -2,7 +2,7 @@
 
 2. The include directive instructs the preprocessor to include another file to pass to the compiler.
 
-3. Identifiers provide readable names for variables, functions, classes, objects, labels and defined types.
+3. Identifiers provide readable names for   variables, functions, classes, objects, labels and defined types.
 In c++ identifiers are made up of letters and numbers within a set of constraints.
 
 These include the 26 letters of the ISO latin alphabet in both uppercase and lowercase.
@@ -42,3 +42,5 @@ There is also an STL class called array and this can lead to some confusion.
 
 A primitive string is just a special case of an array of characters.
 
+7. A structure is an aggregated variable in c++. 
+It is a way of collecting a number of disparate variables in a single container.
