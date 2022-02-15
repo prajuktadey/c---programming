@@ -48,3 +48,28 @@ It is a way of collecting a number of disparate variables in a single container.
 8. C++ makes no distinction between a function and a procedure.
 
 9. When we're building an object based on a class, we're building an instance of that class and each of these is a separate instance, each with its own memory space and each most importantly with its own copy of the data member.
+
+10. Data Types:
+a. int
+Commonly 32 bits.
+Single integer value.
+Range: -2147483648 to 2147483647.
+
+b. unsigned int
+Commonly 32 bits.
+Unsigned integer value.
+Range: 0 to 4294967295.
+
+Primitive types are the ones that are used in building other compounds types.
+a. Integers.
+b. Floating point types.
+c. Boolean types.
+
+11. Intger types include:
+a. char
+b. short int
+c. int
+d. long int
+e. long long int
+
+
