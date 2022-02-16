@@ -72,4 +72,9 @@ c. int
 d. long int
 e. long long int
 
+12. Qualifiers are used to adjust qualities of an object ot a varible.
+
+e.g: const static int i= 42;
+Here, the const and static are qualifiers. They tell the compiler that this varaible will be immutable that's the const qualifier, and they will have static storage duration.
+
 
