@@ -87,3 +87,10 @@ It's value cannot be changed once it's been defined. Mutable is used on a data m
 By default a variable defined within a block has automatic lifetime where the lifetime of the variable is the duration of the block. 
 
 13. It takes 32 bits on mac but it may take more or less space on your machine depending on how it aligns values and memory and like that.  This becomes an issue if you store your pack data in a file and then expect to read it on a different machine.
+
+14. C++ has an enumerated type called enum. If you don't specify they tend to start at 0. Then they go sequentially from there if you are not specifying.
+
+ENUM is referred to as a type but it is not a type. It works like a constant and it makes a great alternative t0 the preprocessor macros which is how a lot of people do things like this. But with enum they are type safe. 
+
+
+
