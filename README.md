@@ -77,4 +77,13 @@ e. long long int
 e.g: const static int i= 42;
 Here, the const and static are qualifiers. They tell the compiler that this varaible will be immutable that's the const qualifier, and they will have static storage duration.
 
+CV QUALIFIERS         STORAGE DURATION
+const                 static
+mutable               register
+volatile              extern
 
+It's value cannot be changed once it's been defined. Mutable is used on a data member to make it writeable from a const member function.
+
+By default a variable defined within a block has automatic lifetime where the lifetime of the variable is the duration of the block. 
+
+13. It takes 32 bits on mac but it may take more or less space on your machine depending on how it aligns values and memory and like that.  This becomes an issue if you store your pack data in a file and then expect to read it on a different machine.
