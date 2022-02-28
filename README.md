@@ -93,5 +93,12 @@ By default a variable defined within a block has automatic lifetime where the li
 ENUM is referred to as a type but it is not a type. It works like a constant and it makes a great alternative t0 the preprocessor macros which is how a lot of people do things like this. But with enum they are type safe. 
 
 15. Union is a data structure that allows you o use the same memory space fo different types.
+IPv4 addresses is a 32 bit number that's typically displayed as octets. They are called octets because they are 8 bits.
 
+The _t is traditional for type def types. It's nor required by the language but it's a good idea to do  it because then you've got an idea when you're using it, that it's a typedef.
 
+16. The void type has special meaning in c++. It's used to specify lack of value for function parameters and function returns.
+
+17. In C, the void type in the argument list means the function takes no arguments. So, the usage with void is simply allowed for compatability with C but it's not required. 
+
+VOID IS SYNTACTICALLY A TYPE, IT'S ONLY USED IN SPECIAL CIRCUMSTANCES. AS A RETURN TYPE OR AS A PARAMETER TYPE.
