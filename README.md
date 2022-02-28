@@ -92,5 +92,6 @@ By default a variable defined within a block has automatic lifetime where the li
 
 ENUM is referred to as a type but it is not a type. It works like a constant and it makes a great alternative t0 the preprocessor macros which is how a lot of people do things like this. But with enum they are type safe. 
 
+15. Union is a data structure that allows you o use the same memory space fo different types.
 
 
