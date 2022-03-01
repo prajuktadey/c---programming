@@ -15,7 +15,7 @@ int main()
     printf("x is %s\n", x.c_str());
     printf("type of x is %s\n", typeid(x).name());
     return 0;
-    
+
 }
 
 
