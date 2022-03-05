@@ -1,0 +1,18 @@
+#include <iostream>
+
+int main()
+{
+    int x=5;
+    int y=42;
+
+    if(x==y)//comparison for equality
+    {
+        puts("true");
+    }
+    else
+    {
+        puts("false");
+    }
+    
+    return 0;
+}
