@@ -102,3 +102,9 @@ The _t is traditional for type def types. It's nor required by the language but 
 17. In C, the void type in the argument list means the function takes no arguments. So, the usage with void is simply allowed for compatability with C but it's not required. 
 
 VOID IS SYNTACTICALLY A TYPE, IT'S ONLY USED IN SPECIAL CIRCUMSTANCES. AS A RETURN TYPE OR AS A PARAMETER TYPE.
+
+18. The auto-type is a relatively recent feature in c++ bginning with c++11. 
+
+19. In c++ the null pointer has always been problematic.
+
+20. Functions are the basis of the class methods. They create containers for logical subset of codes.
