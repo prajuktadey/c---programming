@@ -108,3 +108,15 @@ VOID IS SYNTACTICALLY A TYPE, IT'S ONLY USED IN SPECIAL CIRCUMSTANCES. AS A RETU
 19. In c++ the null pointer has always been problematic.
 
 20. Functions are the basis of the class methods. They create containers for logical subset of codes.
+
+21. You can use the class to create an object. The object is sometimes called an instance of a class.
+
+22. Objeect members are the contents of an object. There are two types of members. Data members are the members that represent encapsulated data. Data members are sometimes called properties. 
+
+23. Function members are the functions associated with the class and function members are sometimes called methods.
+
+24. Constructors and destructors are special function members that are called when an object is created or destroyed.
+
+25. Constructor are named with the name of the class. The destructor is defined when the object is destroyed.
+
+26. The destructor is named with the tilde character.
