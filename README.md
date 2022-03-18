@@ -141,3 +141,15 @@ c. Longer compile time
     strlen(str, count)
     strchr(str, ch)
     strstr(dest, src)
+
+31. Date and time functions:
+a. time(time)
+b. gmtime(time)
+c.localtime(time)
+d. strftime(str, count, format, time)
+
+Utilities:
+1. Math
+2. Localization
+3. Process control
+4. System services
