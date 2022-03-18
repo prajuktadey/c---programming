@@ -120,3 +120,13 @@ VOID IS SYNTACTICALLY A TYPE, IT'S ONLY USED IN SPECIAL CIRCUMSTANCES. AS A RETU
 25. Constructor are named with the name of the class. The destructor is defined when the object is destroyed.
 
 26. The destructor is named with the tilde character.
+
+27. C++ templates are marvelously simple and powerful. This is the c++ feature that supports generic programming. Generic programming refers to code that works independant of type while c++ is a strongly typed language.
+
+28. Template declarations look just like normal function or class declarations with one distinction. They are preceded by the template keyword, and a set of type identifiers. These type identifiers are used as placeholders by the template code to be replaced during compilation with actual types.
+
+29. Disadavantages of template:
+a. Larger executables
+b. Confusing error messages
+c. Longer compile time
+
