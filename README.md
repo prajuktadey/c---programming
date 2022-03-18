@@ -130,3 +130,8 @@ a. Larger executables
 b. Confusing error messages
 c. Longer compile time
 
+30. fopen(filename, mode)
+    fread(str, count, stream)
+    fwrite(str, stream)
+    fgets(buffer, size, count, stream)
+    fputs(buffer, size, count, stream)
