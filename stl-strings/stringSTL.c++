@@ -1,5 +1,3 @@
-// string.cpp by Bill Weinman <http://bw.org/>
-// updated 2002-09-02
 #include <iostream>
 #include <string>
 
