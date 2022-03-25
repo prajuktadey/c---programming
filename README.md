@@ -153,3 +153,8 @@ Utilities:
 2. Localization
 3. Process control
 4. System services
+
+32. The standard template library contains a number of standard containers, iterators and algoriths.
+Some of these include vector, a fundamnetal random access container that can be used in many places as C array could be used.
+
+33. A vector is a sequence container that supports random access of its elements. You can think of it as an object oriented array with a bunch extra features. Vectors are extremely flexible.
